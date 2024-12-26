@@ -1,6 +1,6 @@
 import { useNavigate } from "react-router-dom";
 
-export const SelfHosted = ({ className, ...props }) => {
+export const SelfHosted = () => {
   const navigate = useNavigate();
   // Object containing sign-in methods
   const signMethods = [

@@ -1,6 +1,6 @@
 import "./Dashboard.css";
 
-export const Dashbord = ({ className, ...props }) => {
+export const Dashbord = () => {
   return (
     <div className={"laptop " + className}>
       <div className="sidebar-navigation">

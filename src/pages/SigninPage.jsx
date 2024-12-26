@@ -3,7 +3,7 @@ import "./SigninPage.css";
 import { Saas } from "../components/Saas";
 import { SelfHosted } from "../components/Selfhosted";
 
-export const SigninPage = ({ className, ...props }) => {
+export const SigninPage = () => {
   const [activeTab, setActiveTab] = useState("SAAS");
   return (
     <div className="signin-page">

@@ -1,6 +1,6 @@
 import { useNavigate } from "react-router-dom";
 
-export const Saas = ({ className, ...props }) => {
+export const Saas = () => {
   const navigate = useNavigate();
 
   const handleSignIn = (provider) => {
