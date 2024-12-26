@@ -8,16 +8,9 @@ export const Dashbord = () => {
     setIsSidebarOpen((prev) => !prev);
   };
   return (
-<<<<<<< HEAD
-
     <div className="laptop">
-
       {/* Sidebar Navigation */}
       <div className={`sidebar-navigation ${isSidebarOpen ? "" : "closed"}`}>
-=======
-    <div className="laptop">
-      <div className="sidebar-navigation">
->>>>>>> 673610ff749f66f2016754207ea59ea0d9638135
         <div className="content">
           <div className="navigation">
             <div className="header">
