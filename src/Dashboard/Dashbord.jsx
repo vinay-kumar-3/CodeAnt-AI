@@ -1,9 +1,18 @@
 import "./Dashboard.css";
+import React, { useState } from "react";
 
 export const Dashbord = () => {
+  const [isSidebarOpen, setIsSidebarOpen] = useState(false);
+
+  const toggleSidebar = () => {
+    setIsSidebarOpen((prev) => !prev);
+  };
   return (
-    <div className={"laptop " + className}>
-      <div className="sidebar-navigation">
+
+    <div className="laptop">
+
+      {/* Sidebar Navigation */}
+      <div className={`sidebar-navigation ${isSidebarOpen ? "" : "closed"}`}>
         <div className="content">
           <div className="navigation">
             <div className="header">
@@ -90,6 +99,17 @@ export const Dashbord = () => {
           </div>
           </div>
           
+        </div>
+      </div>
+      <div className="menu">
+        <div className="menu-item">
+          <img className="image_mob"src="./src/assets/logo.png" alt="logo" />
+          <div className="logo_mob">CodeAnt AI</div>
+        </div>
+        <div>
+          <button className="hamburger-button" onClick={toggleSidebar}>
+          <img src="./src/assets/hamburger-icon.svg" alt="Menu" />
+          </button>
         </div>
       </div>
       <div className="frame-989">

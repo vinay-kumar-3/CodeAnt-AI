@@ -32,7 +32,7 @@
   align-items: center;
   justify-content: space-between;
   flex: 1;
-  width: 620px;
+  width: 570px;
   position: relative;
 }
 .group-37111 {
@@ -406,7 +406,7 @@
 }
 .text {
   color: #181d27;
-  text-align: left;
+  text-align: center;
   font-size: 32px;
   line-height: 48px;
   font-weight: 600;
@@ -531,4 +531,115 @@
   font-size: 16px;
   line-height: 24px;
   font-weight: 700;
+}
+
+@media (max-width: 1024px) {
+  .signin-page {
+    flex-direction: column;
+    align-items: stretch;
+  }
+
+  .sidebar-navigation {
+    width: 100%;
+    border-width: 0;
+    border-bottom: 1px solid #e9eaeb;
+  }
+
+  .content {
+    width: 100%;
+  }
+}
+
+@media (max-width: 768px) {
+  .sidebar-navigation {
+    align-items: flex-start;
+    padding: 20px;
+  }
+
+  .total-emails {
+    width: 100%;
+    margin-bottom: 20px;
+  }
+
+  .card-10 {
+    width: 90%;
+    margin: auto;
+  }
+
+  .frame-989 {
+    padding: 16px;
+  }
+
+  .date-and-text {
+    gap: 20px;
+    width: 100%;
+  }
+
+  .horizontal-tabs .tab-button-base {
+    font-size: 16px;
+    padding: 12px;
+  }
+  .content2 {
+    padding: 16px;
+    margin: 16px auto;
+    width: 90%;
+  }
+}
+
+@media (max-width: 480px) {
+  
+  .sidebar-navigation {
+    display: none; 
+  }
+  .signin-page {
+    align-items: center; 
+    justify-content: center;
+}
+
+  .total-emails {
+    width: 100%;
+  }
+  .content2 {
+    padding: 12px;
+    margin: 12px auto;
+    width: 100%;
+    max-width: none; 
+    text-align: center;
+  }
+  .date-and-text {
+    width: 100%;
+  }
+
+  .card-10 {
+    width: 100%;
+    padding: 10px;
+  }
+
+  .frame-10 {
+    flex-direction: row;
+    align-items: center;
+  }
+
+  .tab-button-base {
+    padding: 10px;
+    font-size: 14px;
+  }
+
+  .frame-989 {
+    padding: 12px;
+  }
+
+  .main {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .google {
+    width: 100%;
+    padding: 12px;
+  }
+
+  .text2 {
+    font-size: 16px;
+  }
 }

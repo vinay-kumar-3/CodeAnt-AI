@@ -1,7 +1,8 @@
 import React, { useState } from "react";
 import "./SigninPage.css";
 import { Saas } from "../Components/Saas";
-import { SelfHosted } from "../Components/SelfHosted";
+import { SelfHosted } from "../components/Selfhosted";
+
 
 export const SigninPage = () => {
   const [activeTab, setActiveTab] = useState("SAAS");

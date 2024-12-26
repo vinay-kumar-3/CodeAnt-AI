@@ -28,6 +28,19 @@
   height: 960px;
   position: relative;
 }
+.menu ,.hamburger-button {
+  display: none;
+  top: 16px;
+  background: none;
+  cursor: pointer;
+  z-index: 1000;
+}
+
+.hamburger-button img {
+  width: 24px;
+  height: 24px;
+}
+
 .laptop .content {
   display: flex;
   flex-direction: column;
@@ -383,7 +396,6 @@
 }
 .laptop .frame-990 {
   display: flex;
-  flex-direction: row;
   align-items: center;
   justify-content: space-between;
   align-self: stretch;
@@ -403,8 +415,8 @@
   color: #181d27;
   text-align: left;
   
-  font-size: var(--font-size-display-xs, 24px);
-  line-height: var(--line-height-display-xs, 32px);
+  font-size:  24px;
+  line-height: 32px;
   font-weight: 600;
   position: relative;
 }
@@ -1026,4 +1038,54 @@
   line-height: 24px;
   font-weight: 400;
   position: relative;
+}
+
+@media (max-width: 768px) {
+  .laptop{
+    display: flex;
+    flex-direction: column;
+  }
+  .sidebar-navigation.closed {
+    display: none;
+  }
+
+  .menu{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+  }
+  .menu-item{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+  }
+  .hamburger-button{
+    display: block;
+    border: none;
+  }
+
+  .logo_mob{
+    color: #181d27;
+    font-size:  25px;
+    line-height: 20px;
+    font-weight: 600;
+    padding: 5px;
+  }
+  .image_mob{
+    width: 25px;
+  }
+  .frame-990{  
+    flex-direction: column;
+    justify-content: flex-start;
+  }
+  .frame-1014{
+    justify-content: flex-start;
+    padding: 10px;
+  }
+  .frame-989 {
+    margin-left: 0;
+    padding-top: 56px; /* Leave space for hamburger button */
+  }
 }
