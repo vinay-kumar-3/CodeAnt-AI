@@ -15,7 +15,7 @@ export const SigninPage = () => {
             <div className="total-emails">
               <div className="bg"></div>
               <div className="frame-120">
-                <img className="subtract" src="./src/assets/Subtract0.png" alt="Subtract Icon" />
+                <img className="subtract" src="./assets/Subtract0.png" alt="Subtract Icon" />
                 <div className="ai-to-detect-autofix-bad-code">
                   AI to Detect &amp; Autofix Bad Code
                 </div>
@@ -42,13 +42,13 @@ export const SigninPage = () => {
                 <div className="ellipse-1"></div>
                 <img
                   className="ant-design-pie-chart-filled"
-                  src="./src/assets/piechart.png"
+                  src="./assets/piechart.png"
                   alt="Chart Icon"
                 />
               </div>
               <div className="group-5">
                 <div className="k">
-                  <img className="arrow" src="./src/assets/arrow.png" alt="Arrow Icon" />
+                  <img className="arrow" src="./assets/arrow.png" alt="Arrow Icon" />
                 </div>
                 <div className="_14">14%</div>
                 <div className="this-week">This week</div>
@@ -59,7 +59,7 @@ export const SigninPage = () => {
               </div>
             </div>
   
-            <img className="subtract2" src="./src/assets/Subtract.png" alt="Sidebar Decoration" />
+            <img className="subtract2" src="./assets/Subtract.png" alt="Sidebar Decoration" />
           </div>
         </div>
         
@@ -72,7 +72,7 @@ export const SigninPage = () => {
             {/* Header Section */}
             <div className="date-and-text">
               <div className="frame-10">
-                <img className="logo" src="./src/assets/logo.png" alt="Logo" />
+                <img className="logo" src="./assets/logo.png" alt="Logo" />
                 <div className="code-ant-ai">CodeAnt AI</div>
               </div>
               <div className="text">Welcome to CodeAnt AI</div>
