@@ -2,7 +2,7 @@ import "./Dashboard.css";
 
 export const Dashbord = () => {
   return (
-    <div className={"laptop " + className}>
+    <div className="laptop">
       <div className="sidebar-navigation">
         <div className="content">
           <div className="navigation">
